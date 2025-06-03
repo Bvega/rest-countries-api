@@ -1,4 +1,3 @@
-Awesome — let’s now generate a beginner-friendly, educational `TUTORIAL.md` that explains **how this project was built step-by-step**, with code explanations, learning tips, and guidance.
 
 ---
 
@@ -168,6 +167,6 @@ This project is a great introduction to:
 * Page routing without a framework
 * User preferences with `localStorage`
 
-Happy coding! 🎉
+Enjoy coding!
 
 ```

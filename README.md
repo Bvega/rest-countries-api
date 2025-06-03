@@ -1,8 +1,8 @@
-Perfect — here’s your complete `README.md` file tailored for your REST Countries with Theme Switcher project.
+
 
 ---
 
-### 📄 `README.md` (Copy & Paste)
+### 📄 `REST Countries Explorer` 
 
 ````md
 # 🌍 REST Countries Explorer
@@ -116,9 +116,9 @@ docs/
 
 ## 💬 Author
 
-**Your Name**
-[GitHub](https://github.com/your-username)
-Email: [you@example.com](mailto:you@example.com)
+**Bolivar Vega**
+[GitHub](https://github.com/Bvega)
+Email: [bolivar.vega@gmail.com](mailto:bolivar.vega@gmail.com)
 
 ---
 
