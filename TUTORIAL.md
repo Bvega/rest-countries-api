@@ -21,8 +21,24 @@ Goal: Build a responsive web app that:
 - Supports light and dark themes
 
 ---
+---
+
+## 🧠 How the Files Work Together
+
+This project is modular:
+
+- **index.html** loads `main.js` to fetch and render a list of countries.
+- **country.html** loads `country.js`, reads the `code` from the URL, and fetches details for a single country.
+- **theme.js** is shared by both pages to manage the dark mode toggle.
+- **style.css** applies styles globally across both views.
+
+This structure keeps the logic clean and the UI consistent.
+
+----
 
 ## 🚀 Phase 1: Setup Project
+
+
 
 ### ✅ Folder Structure
 

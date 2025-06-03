@@ -35,10 +35,36 @@ A responsive frontend application that displays data from the [REST Countries AP
 ✅ Accessibility and keyboard navigation support  
 
 ---
+---
+
+## 🧠 Project Structure & Logic
+
+This project is built using modular HTML, CSS, and JavaScript. Files are linked and executed dynamically:
+
+### 🔄 Flow Overview
+
+- `index.html`:
+  - Lists all countries using data from the REST Countries API
+  - Uses `main.js` to fetch and display cards
+  - Includes `theme.js` to manage dark mode
+
+- `country.html`:
+  - Displays details for a single country based on `?code=XXX`
+  - Uses `country.js` to fetch and render country info
+  - Reuses styles and theme logic
+
+- `style.css`:
+  - Shared responsive layout, grid, cards, and theme support
+
+- `theme.js`:
+  - Enables light/dark mode toggle with persistent localStorage
+
+All files are organized in the `/docs` folder for GitHub Pages deployment.
+
 
 ## 🔗 Live Demo
 
-👉 [Visit the site on GitHub Pages](https://your-github-username.github.io/your-repo-name/)
+👉 [Visit the site on GitHub Pages]( https://bvega.github.io/rest-countries-api/)
 
 *(Replace with actual URL after deployment)*
 
@@ -49,7 +75,7 @@ A responsive frontend application that displays data from the [REST Countries AP
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Bvega/rest-countries-api.git
 cd your-repo-name
 ````
 
